@@ -7,7 +7,7 @@ function auth(event) {
     if (text === 'eriyashiro' && password === 'xiomara03!') {
       alert("Login successful");
       sessionStorage.setItem('username', text); 
-      window.location.assign('index.html');
+      window.location.assign('index2.html');
     } else {
       alert("Invalid username or password");
       document.getElementById('username').value = '';
